@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        img {
+            width: 150px;
+            height: auto;
+        }
+
+        /* ナビゲーション全体のスタイル */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            /* 左右に要素を配置 */
+            align-items: center;
+        }
+
+        /* 右上に配置するためのスタイル */
+        .language-switch {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        /* 他のリンクを中央に配置 */
+        .main-nav {
+            margin: 0 auto;
+            /* 左右中央揃え */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>朴 潤花 (Yuna Park)</h1>
+    <p>これは朴潤花のホームページです．</p>
+    <img src="my_img.jpg" alt="Profile picture of Yuna Park" width="300">
+    <p>
+        現在は修士2年生で，筑波大学でコンピューターサイエンスを専攻しています．<br>
+        深層学習を用いた画像処理の勉強をしています．
+    </p>
+
+
+    <nav>
+        <!-- 日本語版リンクを右上に配置 -->
+        <div class="language-switch">
+            <a href="home_jp.html">Japanese</a>
+        </div>
+
+        <!-- 他のリンクは中央揃え -->
+        <div class="main-nav">
+            <a href="research.html">研究のページ</a> |
+            <a href="career.html">経歴のページ</a>
+        </div>
+    </nav>
+</body>
+
+</html>
