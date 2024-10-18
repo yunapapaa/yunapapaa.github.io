@@ -9,6 +9,25 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
+
+        /* ナビゲーション全体のスタイル */
+        nav {
+            display: flex;
+            justify-content: space-between; /* 左右に要素を配置 */
+            align-items: center;
+        }
+
+        /* 右上に配置するためのスタイル */
+        .language-switch {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        /* 他のリンクを中央に配置 */
+        .main-nav {
+            margin: 0 auto; /* 左右中央揃え */
+        }
     </style>
 </head>
 
@@ -42,8 +61,16 @@
 
 
     <nav>
-        <a href="index.html">Home</a> |
-        <a href="career.html">Career</a>
+        <!-- 日本語版リンクを右上に配置 -->
+        <div class="language-switch">
+            <a href="research_jp.html">Japanese</a>
+        </div>
+    
+        <!-- 他のリンクは中央揃え -->
+        <div class="main-nav">
+            <a href="home.html">Research</a> |
+            <a href="career.html">Career</a>
+        </div>
     </nav>
 </body>
 
