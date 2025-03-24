@@ -1,34 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career</title>
+    <title>経歴 - 朴 潤花</title>
     <style>
         body {
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            background-color: #fdfdfd;
+            color: #333;
         }
 
-        /* ナビゲーション全体のスタイル */
+        h1, h2 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
         nav {
             display: flex;
             justify-content: space-between;
-            /* 左右に要素を配置 */
             align-items: center;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 0.95em;
         }
 
-        /* 右上に配置するためのスタイル */
         .language-switch {
             position: absolute;
-            top: 10px;
-            right: 10px;
+            top: 20px;
+            right: 30px;
         }
 
-        /* 他のリンクを中央に配置 */
         .main-nav {
             margin: 0 auto;
-            /* 左右中央揃え */
+            text-align: center;
+        }
+
+        .main-nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007acc;
+        }
+
+        .main-nav a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -36,49 +65,50 @@
 <body>
     <h1>経歴</h1>
 
-    <h2>学歴</h2>
-    <p>
-    <ul>
-        <li>
-            2019 - 2023:<br>
-            筑波大学 社会・国際学群 国際総合学類
-        </li>
-        <li>
-            2023 - 2025:<br>
-            筑波大学大学院 システム情報工学群 情報理工学位プログラム
-        </li>
-    </ul>
-    </p>
+    <section>
+        <h2>学歴</h2>
+        <ul>
+            <li>
+                <strong>2019年4月 – 2023年3月</strong><br>
+                筑波大学 社会・国際学群 国際総合学類
+            </li>
+            <li>
+                <strong>2023年4月 – 2025年3月</strong><br>
+                筑波大学大学院 システム情報工学研究群 情報理工学位プログラム 修士課程
+            </li>
+        </ul>
+    </section>
 
-    <h2>職務経験</h2>
-    <p>
-    <ul>
-        <li>
-            2023.8 - 2025.3<br>
-            産業技術総合研究所 人工知能研究センター 社会知能研究チーム，リサーチアシスタント
-        </li>
-        <li>
-            2024.10 - 2025.3<br>
-            理化学研究所 計算科学研究センター 高性能ビッグデータ研究チーム，研究インターン
-        </li>
-         <li>
-            2025.4 - 現在:<br>
-            産業技術総合研究所 人工知能研究センター 社会知能研究チーム，研究員
-        </li>
-    </ul>
-    </p>
-
+    <section>
+        <h2>職務経験</h2>
+        <ul>
+            <li>
+                <strong>2023年8月 – 2025年3月</strong><br>
+                産業技術総合研究所 人工知能研究センター 社会知能研究チーム<br>
+                リサーチアシスタント
+            </li>
+            <li>
+                <strong>2024年10月 – 2025年3月</strong><br>
+                理化学研究所 計算科学研究センター 高性能ビッグデータ研究チーム<br>
+                研究インターン
+            </li>
+            <li>
+                <strong>2025年4月 – 現在</strong><br>
+                産業技術総合研究所 人工知能研究センター 社会知能研究チーム<br>
+                研究員
+            </li>
+        </ul>
+    </section>
 
     <nav>
-        <!-- 日本語版リンクを右上に配置 -->
         <div class="language-switch">
             <a href="career.html">English</a>
         </div>
 
-        <!-- 他のリンクは中央揃え -->
         <div class="main-nav">
             <a href="home_jp.html">ホーム</a> |
-            <a href="research_jp.html">研究のページ</a>
+            <a href="research_jp.html">研究</a> |
+            <a href="career_jp.html"><strong>経歴</strong></a>
         </div>
     </nav>
 </body>
