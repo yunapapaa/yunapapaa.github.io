@@ -4,34 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Home - Yuna Park</title>
     <style>
-        body{
+        body {
             font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            background-color: #fdfdfd;
+            color: #333;
         }
-        
-        img {
+
+        h1 {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+
+        img.profile {
             width: 150px;
             height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+            margin-bottom: 20px;
         }
 
-        /* ナビゲーション全体のスタイル */
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
         nav {
             display: flex;
-            justify-content: space-between; /* 左右に要素を配置 */
+            justify-content: space-between;
             align-items: center;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 0.95em;
         }
 
-        /* 右上に配置するためのスタイル */
         .language-switch {
             position: absolute;
-            top: 10px;
-            right: 10px;
+            top: 20px;
+            right: 30px;
         }
 
-        /* 他のリンクを中央に配置 */
         .main-nav {
-            margin: 0 auto; /* 左右中央揃え */
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .main-nav a {
+            margin: 0 10px;
         }
     </style>
 </head>
@@ -39,22 +66,21 @@
 <body>
     <h1>Yuna Park</h1>
     <p>This is Yuna Park's homepage.</p>
-    <img src="my_img.jpg" alt="Profile picture of Yuna Park" width="300">
+
+    <img src="my_img.jpg" alt="Profile picture of Yuna Park" class="profile">
+
     <p>
         I graduated with a master’s degree from Tsukuba University in 2025, and I am currently engaged in research on image recognition using deep learning at the 
-        <a href="https://www.airc.aist.go.jp/cosine/">Social Intelligence Research Team at National Institute of Advanced Industrial Science and Technology (AIST)</a>.
-        <br>
-        I am particularly interested in the effective training of deep learning models and am studying topics such as data augmentation and domain generalization.
+        <a href="https://www.airc.aist.go.jp/cosine/">Social Intelligence Research Team at the National Institute of Advanced Industrial Science and Technology (AIST)</a>.
+        <br><br>
+        I am particularly interested in the effective training of deep learning models and am studying topics such as <strong>data augmentation</strong> and <strong>domain generalization</strong>.
     </p>
 
-
     <nav>
-        <!-- 日本語版リンクを右上に配置 -->
         <div class="language-switch">
-            <a href="home_jp.html">Japanese</a>
+            <a href="home_jp.html">日本語</a>
         </div>
-    
-        <!-- 他のリンクは中央揃え -->
+
         <div class="main-nav">
             <a href="research.html">Research</a> |
             <a href="career.html">Career</a>
