@@ -1,150 +1,166 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ホーム - 朴 潤花</title>
-    <style>
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-                     "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
-        line-height: 1.7;
-        margin: 0;
-        padding: 0;
-        background: #fafafa;
-        color: #222;
-      }
-    
-      main {
-        max-width: 800px;
-        margin: 40px auto;
-        padding: 0 20px;
-      }
-    
-      h1 {
-        margin-bottom: 10px;
-      }
-    
-      h2 {
-        margin-top: 50px;
-        border-bottom: 2px solid #ddd;
-        padding-bottom: 6px;
-      }
-    
-      h3 {
-        margin-top: 30px;
-      }
-    　img.profile {
-            width: 150px;
-            height: 150px;       
-            object-fit: cover;
-            border-radius: 0px;
-            margin-top: 10px;
-            margin-bottom: 20px;
-        }
-    
-      section {
-        margin-bottom: 30px;
-      }
-    
-      ul {
-        padding-left: 20px;
-      }
-    
-      li {
-        margin-bottom: 16px;
-      }
-    
-      a {
-        color: #0066cc;
-        text-decoration: none;
-      }
-    
-      a:hover {
-        text-decoration: underline;
-      }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Yuna Park</title>
+
+  <style>
+    body {
+      position: relative;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+      line-height: 1.7;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #222;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 50px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 6px;
+    }
+
+    h3 {
+      margin-top: 30px;
+    }
+
+    img.profile {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 0;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 16px;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .lang-switch {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 
 <body>
-    <main>
-        <h1>朴 潤花 (Yuna Park)</h1>
-       
-        <img src="my_img2.jpg" alt="Profile picture of Yuna Park" class="profile">
-    
-        <p>
-          <a href="https://www.airc.aist.go.jp/cosine/">
-            産業技術総合研究所 人工知能研究センター 社会知能研究チーム
+  <main>
+    <nav class="lang-switch">
+      <strong>EN</strong> | <a href="home_jp.html">JP</a>
+    </nav>
+
+    <h1>Yuna Park</h1>
+
+    <img src="my_img2.jpg" alt="Profile picture of Yuna Park" class="profile">
+
+    <p>
+      I am a researcher at the
+      <a href="https://www.airc.aist.go.jp/cosine/">
+        Social Intelligence Research Team, Artificial Intelligence Research Center, AIST
+      </a>,
+      working on image recognition using deep learning.
+    </p>
+
+    <h2>Publications</h2>
+
+    <section>
+      <h3>International Conferences</h3>
+      <ul>
+        <li>
+          Y. Park, T. Takase, K. Kameyama, and M. Onishi,<br>
+          <strong>"Affinity-Weighted RandAugment for Problem-Oriented Augmentation"</strong>,<br>
+          <em>Proceedings of the 2024 International Joint Conference on Neural Networks (IJCNN)</em>,
+          2024, pp. 1–8.<br>
+          DOI:
+          <a href="https://doi.org/10.1109/IJCNN60899.2024.10651376">
+            10.1109/IJCNN60899.2024.10651376
           </a>
-          にて，深層学習を用いた画像認識の研究に取り組んでいます．
-        </p>
-    
-        <h2>論文発表</h2>
-    
-        <section>
-            <h3>国際会議</h3>
-            <ul>
-                <li>
-                    Y. Park, T. Takase, K. Kameyama and M. Onishi,<br>
-                    <strong>"Affinity-Weighted RandAugment for Problem-Oriented Augmentation"</strong>,<br>
-                    <em>2024 International Joint Conference on Neural Networks (IJCNN)</em>, 2024, pp. 1-8. <br>
-                    DOI: <a href="https://doi.org/10.1109/IJCNN60899.2024.10651376">10.1109/IJCNN60899.2024.10651376</a>
-                </li>
-            </ul>
-    
-            <h3>国内会議</h3>
-            <ul>
-                <li>
-                    朴 潤花，亀山啓輔，<br>
-                    「敵対的サンプルの生成法を活用したデータ拡張」，<br>
-                    電子情報通信学会総合大会，D-20-17，2023年3月．
-                </li>
-                <li>
-                    朴 潤花，高瀬朝海，大西正輝，亀山啓輔，<br>
-                    「転移学習における効果的なデータ拡張の分析」，<br>
-                    情報論的学習理論ワークショップ（IBIS），1-051，2023年10月．
-                </li>
-            </ul>
-        </section>
-    
-        <h2>経歴</h2>
-    
-        <section>
-            <h3>学歴</h3>
-            <ul>
-                <li>
-                    <strong>2019年4月 – 2023年3月</strong><br>
-                    筑波大学 社会・国際学群 国際総合学類
-                </li>
-                <li>
-                    <strong>2023年4月 – 2025年3月</strong><br>
-                    筑波大学大学院 システム情報工学研究群 情報理工学位プログラム 修士課程
-                </li>
-            </ul>
-        </section>
-    
-        <section>
-            <h3>職務経験</h3>
-            <ul>
-                <li>
-                    <strong>2023年8月 – 2025年3月</strong><br>
-                    産業技術総合研究所 人工知能研究センター 社会知能研究チーム<br>
-                    リサーチアシスタント
-                </li>
-                <li>
-                    <strong>2024年10月 – 2025年3月</strong><br>
-                    理化学研究所 計算科学研究センター 高性能ビッグデータ研究チーム<br>
-                    研究インターン
-                </li>
-                <li>
-                    <strong>2025年4月 – 現在</strong><br>
-                    産業技術総合研究所 人工知能研究センター 社会知能研究チーム<br>
-                    研究員
-                </li>
-            </ul>
-        </section>
-    </main>
+        </li>
+      </ul>
+
+      <h3>Domestic Conferences (Japan)</h3>
+      <ul>
+        <li>
+          Y. Park and K. Kameyama,<br>
+          “Data Augmentation Using Adversarial Sample Generation,”<br>
+          IEICE General Conference, D-20-17, March 2023.
+        </li>
+        <li>
+          Y. Park, T. Takase, M. Onishi, and K. Kameyama,<br>
+          “Analysis of Effective Data Augmentation in Transfer Learning,”<br>
+          IBIS Workshop, 1-051, October 2023.
+        </li>
+      </ul>
+    </section>
+
+    <h2>Career</h2>
+
+    <section>
+      <h3>Education</h3>
+      <ul>
+        <li>
+          <strong>Apr 2019 – Mar 2023</strong><br>
+          College of International Studies, University of Tsukuba
+        </li>
+        <li>
+          <strong>Apr 2023 – Mar 2025</strong><br>
+          Master’s Program in Computer Science, Graduate School of Science and Technology, University of Tsukuba
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Professional Experience</h3>
+      <ul>
+        <li>
+          <strong>Aug 2023 – Mar 2025</strong><br>
+          Research Assistant, AIST, Artificial Intelligence Research Center
+        </li>
+        <li>
+          <strong>Oct 2024 – Mar 2025</strong><br>
+          Research Intern, RIKEN Center for Computational Science
+        </li>
+        <li>
+          <strong>Apr 2025 – Present</strong><br>
+          Researcher, AIST, Artificial Intelligence Research Center
+        </li>
+      </ul>
+    </section>
+  </main>
 </body>
 
 </html>
