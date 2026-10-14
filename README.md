@@ -1,1 +1,1 @@
-url : https://yunapapaa.github.io/home.html
+url : https://yunapapaa.github.io
